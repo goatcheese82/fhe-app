@@ -1,0 +1,17 @@
+{
+  "name": "fhe-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:backend": "cd backend && pnpm start",
+    "start:frontend": "cd fhe-app && ng serve",
+    "start": "concurrently \"pnpm run start:backend\" \"pnpm run start:frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

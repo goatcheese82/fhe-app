@@ -1,0 +1,46 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+
+*/node_modules
+node_modules
+/fhe-app/npm-debug.log
+/fhe-app/yarn-error.log
+/fhe-app/pnpm-lock.yaml
+/backend/pnpm-lock.yaml
+
+# IDEs and editors
+/fhe-app/.idea/
+/fhe-app/.project
+/fhe-app/.classpath
+/fhe-app/.c9/
+/fhe-app/*.launch
+/fhe-app/.settings/
+/fhe-app/*.sublime-workspace
+
+# Visual Studio Code
+/fhe-app/.vscode/*
+/fhe-app/!.vscode/settings.json
+/fhe-app/!.vscode/tasks.json
+/fhe-app/!.vscode/launch.json
+/fhe-app/!.vscode/extensions.json
+/fhe-app/.histor/fhe-app/y/*
+
+# Miscellaneous
+/fhe-app/.angular/cache
+/fhe-app.sass-cache/
+/fhe-app/connect.lock
+/fhe-app/coverage
+/fhe-app/libpeerconnection.log
+/fhe-apptestem.log
+/typings
+
+# System files
+/fhe-app/.DS_Store
+/fhe-app/Thumbs.db
